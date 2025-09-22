@@ -6,8 +6,8 @@
  <title>About Page</title>
   <link rel="stylesheet" href="style.css">
 <style>
-h1{color:blue!important;font-size:40px!important;}
-h3,h4,h5 {color: darkgreen;font-size: 22px;}
+h1{color:blue;font-size:40px;}
+h3,h4,h5 {color:blue;font-size: 22px;}
 p{color:gray;font-size:20px}
 </style>
 </head>
