@@ -1,4 +1,4 @@
-h1{color:#003399;font-size:40px;}
-h3,h4,h5 {color:#8AB395;font-size:22px;}
-p{color:#000000;font-size:20px}
-
+h1{font:dm serif text;color:#003399;font-size:40px;}
+h3,h4,h5 {font:dm serif text;color:#8AB395;font-size:22px;}
+p{font:open sans;color:#000000;font-size:20px}
+button{backgroundcolor:#E992A4}
