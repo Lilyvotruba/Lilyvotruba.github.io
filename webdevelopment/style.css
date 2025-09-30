@@ -4,3 +4,4 @@ p{font-family:'Open Sans',sans-serif;color:#000000;font-size:20px;}
 button {background-color:#E992A4;color: white;font-size:18px;padding:10px 20px;border:none;border-radius:6px;cursor:pointer;
         transition:background-color 0.3s ease;}
 button:hover{background-color:#d47f90;}
+body{background-color:#f3f3f3;}
