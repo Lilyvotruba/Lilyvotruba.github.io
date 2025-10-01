@@ -6,5 +6,5 @@ button {background-color:#E992A4;color: white;font-size:18px;padding:10px 20px;b
 button:hover{background-color:#E992A4;}
 body{background-color:#f3f3f3;}
 .resume-link{display:inline-block;background-color:#E992A4;color:white;text-decoration:none;font-family:'Open Sans',sans-serif;
-        font-size:18px;padding:10px 20px;margin:15px 0;border:2px solid#8AB395;border-radius:8px;transition:background-color 0.3s;}
-.resume-link:hover {background-color:#8AB395;border-color:#E992A4;}
+        font-size:18px;padding:10px 20px;margin:15px 0;border:2px solid#E992A4;border-radius:8px;transition:background-color 0.3s;}
+.resume-link:hover {background-color:#E992A4;border-color:#E992A4;}
