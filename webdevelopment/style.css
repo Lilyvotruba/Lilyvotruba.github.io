@@ -1,5 +1,5 @@
 h1{font-family:'DM Serif Text',serif;color:#003399;font-size:40px;}
-h3,h4,h5{font-family:'DM Serif Text',serif;color:#8AB395;font-size:22px;}
+h3,h4,h5,h6{font-family:'DM Serif Text',serif;color:#8AB395;font-size:22px;}
 p{font-family:'Open Sans',sans-serif;color:#000000;font-size:20px;}
 button {background-color:#E992A4;color: white;font-size:18px;padding:10px 20px;border:none;border-radius:6px;cursor:pointer;
         transition:background-color 0.3s ease;}
@@ -8,3 +8,12 @@ body{background-color:#f3f3f3;}
 .resume-link{display:inline-block;background-color:#E992A4;color:white;text-decoration:none;font-family:'Open Sans',sans-serif;
         font-size:18px;padding:10px 20px;margin:15px 0;border:2px solid#E992A4;border-radius:8px;transition:background-color 0.3s;}
 .resume-link:hover{background-color:#E992A4;border-color:#E992A4;}
+ul.hobbies-list {
+  list-style-type: square;
+  color: #333366;    
+  font-size: 18px;     
+  margin: 20px 0;        
+  padding-left: 30px;}
+ul.hobbies-list li:hover {
+  color: #E992A4;     
+  cursor: pointer;}
