@@ -37,16 +37,12 @@ nav a:hover,
 nav a:focus{color:#E992A4;
   border-bottom:2px solid #E992A4;}
 
-@media (max-width: 750px) 
+@media (max-width: 750px) {
   header {flex-direction:column;
    align-items:center;
     padding:10px 20px;}
-
-  nav ul {flex-direction:column;
+ nav ul {flex-direction:column;
     gap:15px;
     margin-top:10px;}
-
-  nav a {font-size:18px;}
-
-body{margin-top: 140px;}
-
+ nav a {font-size:18px;}
+body{margin-top: 140px;}}
