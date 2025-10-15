@@ -21,7 +21,7 @@ button {background-color:#E992A4;color:white;
 
 button:hover{background-color:#E992A4;}
 
-.hero{background-image:url('images.jpeg');
+.hero{background-image:url('background.jpg');
   background-size:contain;       
   background-repeat:no-repeat;  
   background-position:center;  
