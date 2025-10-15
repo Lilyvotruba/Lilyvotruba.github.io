@@ -20,7 +20,7 @@ button {background-color:#E992A4;color:white;
 
 button:hover{background-color:#E992A4;}
 
-body{background-image:url(images.jpeg);
+body{background-image:url(images/index-bg.jpeg);
   background-size:cover;       
   background-repeat:no-repeat;  
   background-position:center;  
