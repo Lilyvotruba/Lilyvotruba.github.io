@@ -20,7 +20,11 @@ button {background-color:#E992A4;color:white;
 
 button:hover{background-color:#E992A4;}
 
-body{background-color:#f3f3f3;}
+body{background-image:url(images.jpeg);
+  background-size:cover;       
+  background-repeat:no-repeat;  
+  background-position:center;  
+  background-attachment:fixed;}
 
 .resume-link{display:inline-block;
              background-color:#E992A4;
