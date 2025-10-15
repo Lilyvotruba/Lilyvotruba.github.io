@@ -25,7 +25,8 @@ button:hover{background-color:#E992A4;}
   background-size:contain;       
   background-repeat:no-repeat;  
   background-position:center top;  
-  background-color:#F5FBFF;}
+  background-color:#F5FBFF;
+   position: relative;}
 
 body{background-color:#F5FBFF;}
 
