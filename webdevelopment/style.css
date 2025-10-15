@@ -47,7 +47,7 @@ body{background-color:#ffece4;}
 ul.hobbies-list{list-style-type:square;
                 color:#333366;
                 font-size:18px; 
-                margin:20px 0;
+                margin:10px 0;
                 padding-left:30px;}
 
 ul.hobbies-list li:hover{color:#E992A4; 
