@@ -41,7 +41,7 @@ header{position:fixed;
   z-index:1000;
   padding:10px 0;}
 
-main,body{padding-top:100px;}
+main,body{padding-top:20px;}
 
 .resume-link{display:inline-block;
              background-color:#E992A4;
@@ -67,7 +67,7 @@ ul.hobbies-list{list-style-type:square;
 ul.hobbies-list li:hover{color:#E992A4; 
                 cursor:pointer;}
 
-.reflection h1 {font-family:'DM Serif Text',serif;
+.reflection h1{font-family:'DM Serif Text',serif;
   color:#003399;
   font-size:48px;
   text-align:center;
