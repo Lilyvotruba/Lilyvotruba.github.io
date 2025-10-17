@@ -33,6 +33,16 @@ button:hover{background-color:#E992A4;}
 
 body{background-color:#F5FBFF;}
 
+header{position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:#F5FBFF;
+  z-index:1000;
+  padding:10px 0;}
+
+main,body{padding-top:130px;}
+
 .resume-link{display:inline-block;
              background-color:#E992A4;
              color:white;
