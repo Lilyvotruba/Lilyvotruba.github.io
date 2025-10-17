@@ -41,7 +41,7 @@ header{position:fixed;
   z-index:1000;
   padding:10px 0;}
 
-main,body{padding-top:130px;}
+main,body{padding-top:100px;}
 
 .resume-link{display:inline-block;
              background-color:#E992A4;
@@ -88,3 +88,23 @@ ul.hobbies-list li:hover{color:#E992A4;
   background-color:#E992A4;
   margin:10px auto 0 auto;
   border-radius:4px;}
+
+.reflection-box {background-color:#F5FBFF;
+  border:2px solid #E992A4;
+  border-radius:12px;
+  padding:25px;
+  margin:40px auto;
+  max-width:800px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+
+.reflection-box p.first::first-letter{
+  font-size:200%;
+  font-weight:bold;
+  color:#E992A4;
+  float:left;
+  margin-right:6px;
+   line-height:1;}
+   
+.reflection-box p:not(.first){
+  text-indent:40px;
+  margin-bottom:20px;}
