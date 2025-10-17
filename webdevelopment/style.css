@@ -67,7 +67,7 @@ ul.hobbies-list{list-style-type:square;
 ul.hobbies-list li:hover{color:#E992A4; 
                 cursor:pointer;}
 
-.page-content h1{font-family:'DM Serif Text',serif;
+.page-title h1{font-family:'DM Serif Text',serif;
   color:#003399;
   font-size:48px;
   text-align:center;
@@ -82,7 +82,7 @@ ul.hobbies-list li:hover{color:#E992A4;
   margin-bottom:30px;
   font-style:italic;}
 
-.page-content h1::after{content:"";
+.page-title h1::after{content:"";
   display:block;
   width:80px;
   height:4px;
