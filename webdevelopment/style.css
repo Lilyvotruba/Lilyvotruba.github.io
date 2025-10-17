@@ -60,7 +60,7 @@ ul.hobbies-list{list-style-type:square;
 ul.hobbies-list li:hover{color:#E992A4; 
                 cursor:pointer;}
 
-.page-title h1{font-family:'DM Serif Text',serif;
+.page-title{font-family:'DM Serif Text',serif;
   color:#003399;
   font-size:48px;
   text-align:center;
@@ -68,14 +68,14 @@ ul.hobbies-list li:hover{color:#E992A4;
   margin-bottom:10px;
   letter-spacing:1px;}
 
-.page-content h2{font-family:'DM Serif Text',serif;
+.page-content{font-family:'DM Serif Text',serif;
   color:#8AB395; 
   text-align:center;
   font-size:26px;
   margin-bottom:30px;
   font-style:italic;}
 
-.page-title h1::after{content:"";
+.page-title::after{content:"";
   display:block;
   width:80px;
   height:4px;
@@ -83,7 +83,7 @@ ul.hobbies-list li:hover{color:#E992A4;
   margin:10px auto 0 auto;
   border-radius:4px;}
 
-.reflection-box {background-color:#F5FBFF;
+.reflection-box{background-color:#F5FBFF;
   border:2px solid #E992A4;
   border-radius:12px;
   padding:25px;
@@ -99,6 +99,5 @@ ul.hobbies-list li:hover{color:#E992A4;
   margin-right:6px;
    line-height:1;}
    
-.reflection-box p:not(.first){
-  text-indent:40px;
+.reflection-box p:not(.first){text-indent:40px;
   margin-bottom:20px;}
