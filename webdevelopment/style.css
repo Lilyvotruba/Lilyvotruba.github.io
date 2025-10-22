@@ -180,8 +180,7 @@ figcaption{font-family:'Open Sans',sans-serif;
 
   .text-side{margin-top:25px;}}
 
-@media print{
-  h1,p,ul,footer{display:block !important;
+@media print{h1,p,ul,footer{display:block !important;
     visibility:visible !important;}
 
   @page{margin:1in;}
@@ -213,6 +212,5 @@ p{font-size:12pt;
     padding-top:0.5em;
     margin-top:1em;}
 
-  footer img,footer i,footer svg{display: none !important;}
-}
+  footer img,footer i,footer svg{display: none !important;}}
             
