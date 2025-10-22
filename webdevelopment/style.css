@@ -179,38 +179,3 @@ figcaption{font-family:'Open Sans',sans-serif;
     text-align:center;}
 
   .text-side{margin-top:25px;}}
-
-@media print{h1,p,ul,footer{display:block !important;
-    visibility:visible !important;}
-
-  @page{margin:1in;}
-
-  body{color:black !important;
-    background:white !important;
-    font-family:"Times New Roman",Georgia,serif !important;
-    margin:1in !important;}
-
-  header,nav,img,iframe,figure,.media-side,.resume-link,.video-container,.page-content,.page-title::after{display:none !important;}
-
-  h1{font-size:24pt;
-    text-align:center;
-    margin-bottom:0.5em;}
-
-p{font-size:12pt;
-    line-height:1.5;
-    text-align:justify;
-    margin-bottom:1em;}
-
-  ul{font-size:12pt;
-    margin-left:1.5em;
-    list-style-type:square;}
-
-  footer{display:block !important;
-    text-align:center;
-    font-size:10pt;
-    border-top:1px solid #000;
-    padding-top:0.5em;
-    margin-top:1em;}
-
-  footer img,footer i,footer svg{display: none !important;}}
-            
