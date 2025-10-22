@@ -185,7 +185,8 @@ figcaption{font-family:'Open Sans',sans-serif;
   body.about-page p,
   body.about-page ul,
   body.about-page footer{display:block !important;
-    visibility:visible !important;}
+    visibility:visible !important;
+color:black !important;}
 
   @page{margin:1in;}
 
@@ -207,21 +208,26 @@ figcaption{font-family:'Open Sans',sans-serif;
 
   body.about-page h1{font-size:24pt;
     text-align:center;
-    margin-bottom:0.5em;}
+    margin-bottom:0.5em;
+color:black !important;}
 
   body.about-page p{font-size:12pt;
     line-height:1.5;
     text-align:justify;
-    margin-bottom:1em;}
+    margin-bottom:1em;
+color:black !important;}
 
   body.about-page ul{
     font-size:12pt;
     margin-left:1.5em;
-    list-style-type:square;}
+    list-style-type:square;
+  color:black !important;}
 
   body.about-page footer{
+display:block !important;
     text-align:center;
     font-size:10pt;
+color:black !important;
     border-top:1px solid #000;
     padding-top:0.5em;
     margin-top:1em;}
