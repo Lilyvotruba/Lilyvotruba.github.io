@@ -179,3 +179,54 @@ figcaption{font-family:'Open Sans',sans-serif;
     text-align:center;}
 
   .text-side{margin-top:25px;}}
+
+@media print {
+  body.about-page h1,
+  body.about-page p,
+  body.about-page ul,
+  body.about-page footer{display:block !important;
+    visibility:visible !important;}
+
+  @page{margin:1in;}
+
+  body.about-page{color:black !important;
+    background:white !important;
+    font-family:"Times New Roman",Georgia,serif !important;
+    margin:1in !important;}
+
+  body.about-page header,
+  body.about-page nav,
+  body.about-page img,
+  body.about-page iframe,
+  body.about-page figure,
+  body.about-page .media-side,
+  body.about-page .resume-link,
+  body.about-page .video-container,
+  body.about-page .page-content,
+  body.about-page .page-title::after{display:none !important;}
+
+  body.about-page h1{font-size:24pt;
+    text-align:center;
+    margin-bottom:0.5em;}
+
+  body.about-page p{font-size:12pt;
+    line-height:1.5;
+    text-align:justify;
+    margin-bottom:1em;}
+
+  body.about-page ul{
+    font-size:12pt;
+    margin-left:1.5em;
+    list-style-type:square;}
+
+  body.about-page footer{
+    text-align:center;
+    font-size:10pt;
+    border-top:1px solid #000;
+    padding-top:0.5em;
+    margin-top:1em;}
+
+  body.about-page footer img,
+  body.about-page footer i,
+  body.about-page footer svg{display:none !important;}
+}
