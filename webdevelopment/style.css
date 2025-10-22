@@ -193,7 +193,8 @@ color:black !important;}
   body.about-page{color:black !important;
     background:white !important;
     font-family:"Times New Roman",Georgia,serif !important;
-    margin:1in !important;}
+    margin:1in !important;
+padding-top:0 !important;}
 
   body.about-page header,
   body.about-page nav,
@@ -208,6 +209,7 @@ color:black !important;}
 
   body.about-page h1{font-size:24pt;
     text-align:center;
+margin-top:0 !important;
     margin-bottom:0.5em;
 color:black !important;}
 
@@ -222,6 +224,11 @@ color:black !important;}
     margin-left:1.5em;
     list-style-type:square;
   color:black !important;}
+            
+.about-layout,
+  .text-side,
+  .reflection-box {margin-top:0 !important;
+    padding-top:0 !important;}
 
   body.about-page footer{
 display:block !important;
