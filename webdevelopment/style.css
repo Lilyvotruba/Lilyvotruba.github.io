@@ -131,11 +131,6 @@ figcaption{font-family:'Open Sans',sans-serif;
   margin-top:10px;
   font-size:18px;}
 
-@media(min-width:768px)
-{.media-section{display:flex;
-    flex-direction:column;
-    align-items:center;}
-
   .media-section figure{
     margin-top:20px;}}
 
