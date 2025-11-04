@@ -96,3 +96,14 @@ body{margin-top: 140px;}}
   .dropdown > a::after{
     content:"";}}
 
+.hamburger{display:none;
+  font-size:32px;
+  cursor:pointer;
+  color:#003399;
+  margin-left:auto;}
+
+@media (max-width:750px){
+  nav ul {display:none;}
+
+  .hamburger{display:block;}}
+
