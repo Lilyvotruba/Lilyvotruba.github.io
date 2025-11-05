@@ -75,7 +75,6 @@ nav a:focus{color:#E992A4;
   .dropdown:hover .submenu { display: block; }
 }
 
-/* Mobile Styles */
 .hamburger { display: none; }
 
 @media (max-width: 750px) {
@@ -111,17 +110,19 @@ nav a:focus{color:#E992A4;
 
   /* Submenu hidden by default, only show via JS */
   .submenu {
-    display: none;
+    display: none; !important;
     flex-direction: column;
     width:100%;
     background-color:#fff;
     border-top:2px solid #8AB395;
+  position: static; /* so it stays inside menu */
+    box-shadow: none;
   }
 
   .submenu.show { display: flex; }
 
   /* Prevent hover from showing submenu on mobile */
-  .dropdown:hover .submenu { display: none; }
+  .dropdown:hover .submenu { display: none; !important; }
 
   body { margin-top: 140px; }
 }
