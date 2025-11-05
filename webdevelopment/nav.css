@@ -81,6 +81,9 @@ nav a:focus{color:#E992A4;
     padding:10px 20px;
     gap:10px;
   }
+  .dropdown > a::after {
+  content: none;
+}
 
   /* Show hamburger on mobile */
   .hamburger {
