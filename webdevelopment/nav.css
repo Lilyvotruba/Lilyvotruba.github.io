@@ -105,3 +105,21 @@ nav a:focus{color:#E992A4;
   .submenu.show {display:flex;}
 
   body {margin-top:140px;}}
+
+.submenu {
+  display: none;
+}
+
+/* Desktop: show submenu on hover */
+@media (min-width: 751px) {
+  .dropdown:hover .submenu {
+    display: block;
+  }
+}
+
+/* Mobile: submenu toggled via JS, not hover */
+@media (max-width: 750px) {
+  .dropdown:hover .submenu {
+    display: none; /* prevent hover from showing it */
+  }
+}
