@@ -110,7 +110,7 @@ nav a:focus{color:#E992A4;
 
   /* Submenu hidden by default, only show via JS */
   .submenu {
-    display: none; !important;
+    display: none !important;
     flex-direction: column;
     width:100%;
     background-color:#fff;
@@ -122,7 +122,7 @@ nav a:focus{color:#E992A4;
   .submenu.show { display: flex; }
 
   /* Prevent hover from showing submenu on mobile */
-  .dropdown:hover .submenu { display: none; !important; }
+  .dropdown:hover .submenu { display: none !important; }
 
   body { margin-top: 140px; }
 }
