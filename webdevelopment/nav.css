@@ -101,12 +101,13 @@ body{margin-top: 140px;}}
   cursor:pointer;
   color:#003399;}
 
-@media (max-width: 750px) {
-  nav ul{display:none; 
+@media (max-width:750px) {
+  header {display:none; 
     flex-direction:column;
     gap:15px;
     margin-top:10px;
-    align-items:center;}
+    align-items:center;
+    justify-content:center;}
 
   .hamburger{display:block;
     margin:10px auto; 
