@@ -89,37 +89,48 @@ body{margin-top: 140px;}}
     padding:10px 20px;
     gap:10px;}
 
-  .hamburger {display:none;
-    margin:10px auto;
-    font-size:32px;
-    cursor:pointer;
-    color:#003399;}
-  
-@media (max-width:750px){
-  .hamburger{display:block;  
-    margin:10px auto;}}
-  
-  nav ul {display:none; 
-    flex-direction:column;
-    gap:15px;
-    align-items:center;
-    width:100%;}
+ .hamburger {
+  display: none;  
+  font-size: 32px;
+  cursor: pointer;
+  color: #003399;
+  text-align: center;
+}
 
-  nav ul.show {display:flex;}
+/* Mobile: show hamburger and hide nav menu initially */
+@media (max-width: 750px) {
+  .hamburger {
+    display: block;
+    margin: 10px auto;
+  }
 
-  nav a {font-size: 18px;}
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+  }
 
-  .submenu {display:none; 
-    flex-direction:column;
-    width:100%;
-    background-color:#ffffff;
-    border-top:2px solid #8AB395;}
+  nav ul.show {
+    display: flex;
+  }
 
-  .submenu.show {display:flex;}
+  .submenu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 2px solid #8AB395;
+  }
 
-  .submenu li a {padding:10px 0;}
+  .submenu.show {
+    display: flex;
+  }
 
-  .dropdown > a::after{
-    content: "";}
+  nav a {
+    font-size: 18px;
+  }
 
-  body {margin-top: 140px;}}
+  body {
+    margin-top: 140px;}}
