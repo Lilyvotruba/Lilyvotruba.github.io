@@ -82,8 +82,8 @@ nav a:focus{color:#E992A4;
 
   /* Hide dropdown arrow on mobile */
   .dropdown > a::after {
-    content: "";
-    display: none;
+    content: none !important;
+    display: none !important;
   }
 
   /* Show hamburger on mobile */
