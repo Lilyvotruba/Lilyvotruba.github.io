@@ -52,25 +52,11 @@
     <img src="email.png" alt="Email icon" class="icon">lmvpc8@umsystem.edu
   </p>  </footer>
  <script>
-  const hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('nav ul');
 
 hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('show');
-});
-
-const dropdowns = document.querySelectorAll('.dropdown');
-dropdowns.forEach(drop => {
-  const link = drop.querySelector('a');
-  const submenu = drop.querySelector('.submenu');
-
-  link.addEventListener('click', e => {
-    // Only on mobile, toggle submenu
-    if (window.innerWidth <= 750 && submenu) {
-      e.preventDefault(); // Prevent going to the page
-      submenu.classList.toggle('show');
-    }
-  });
 });
 </script>
 </body>
