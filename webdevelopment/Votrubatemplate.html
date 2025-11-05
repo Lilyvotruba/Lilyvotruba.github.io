@@ -57,6 +57,14 @@
   hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('show');
   });
+  const dropdowns = document.querySelectorAll('.dropdown');
+dropdowns.forEach(drop => {
+  drop.addEventListener('click', e => {
+    e.preventDefault(); // Prevent link jump
+    const submenu = drop.querySelector('.submenu');
+    submenu.classList.toggle('show');
+  });
+});
 </script>
 </body>
 </html>
