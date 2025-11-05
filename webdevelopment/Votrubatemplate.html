@@ -18,6 +18,13 @@
   <link rel="stylesheet" href="nav.css">
    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
+ <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('nav ul');
+  hamburger.addEventListener('click', () => {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
+</script>
 <body>
 <header>
   <img src="logo.png" alt="Your Site Logo" class="logo">
