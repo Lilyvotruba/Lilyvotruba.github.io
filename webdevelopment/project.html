@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!--
+  Name: ___
+  Date: ____
+  Page: ____
+  Description: ____
+-->
+<!-- This is the main HTML5 document declaration -->
+  <!-- Character encoding -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the webpage -->
+  <title>My Starter Template</title>
+  <!-- Link to external CSS for styling -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="Your Site Logo" class="logo">
+   <span class="hamburger">☰</span>
+ <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="about.html">About</a>
+      <ul class="submenu">
+        <li><a href="Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </li>
+<li class="dropdown">
+  <a href="projects.html">Professional Background</a>
+  <ul class="submenu">
+    <li><a href="projects.html#career">Career Experience</a></li>
+       <li><a href="projects.html#career">Career Experience</a></li>
+    <li><a href="projects.html#volunteer">Volunteer Experience</a></li>
+  </ul>
+</li>
+   <li><a href="reflection.html">Reflection</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+  <footer>
+ <p>
+    <img src="phone.png" alt="Phone icon" class="icon">(314)-706-2355
+  </p>
+  <p>
+    <img src="email.png" alt="Email icon" class="icon">lmvpc8@umsystem.edu
+  </p>  </footer>
+ <script>
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('nav ul');
+
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+</script>
+</body>
+</html>
