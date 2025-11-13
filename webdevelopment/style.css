@@ -138,12 +138,21 @@ figcaption{font-family:'Open Sans',sans-serif;
 
 .about-layout {display:grid;
   grid-template-columns:1fr 1.5fr;  
-  gap:40px;
+  gap:70px;
   align-items:start;
   justify-content:center;
   max-width:1200px;
   margin:50px auto;
   padding:30px 40px;}
+
+@media (max-width: 768px) {.about-layout {display:flex;
+    flex-direction:column;}
+
+  .media-side {order:1;}
+
+  .text-side {order:2;}
+
+  .media-side figure {order:3;}}
 
 .media-side{display:flex;
   flex-direction:column;
