@@ -347,7 +347,7 @@ width:100%;}
 #coldstone figure,
 #vegastan figure,
 #volunteer figure {
-  flex: 1;
+  flex: 2;
   max-width: 100%;
 }
 
@@ -366,7 +366,7 @@ width:100%;}
 #vegastan article h3,
 #volunteer article p,
 #volunteer article h3 {
-  flex: 2;
+  flex: 1;
 }
 
 /* Responsive: stack image on top for small screens */
