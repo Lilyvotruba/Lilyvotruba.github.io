@@ -405,12 +405,10 @@ section {scroll-margin-top:90px;}
   margin:0 auto;
   box-shadow:0 6px 14px rgba(0,0,0,0.2);}
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  border: 0;
-}
+.sr-only {position: absolute;
+  width:1px;
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  clip-path:inset(50%);
+  border:0;}
