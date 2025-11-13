@@ -386,3 +386,28 @@ width:100%;}
 }
 
 section {scroll-margin-top:90px;}
+
+#coldstone figure img,
+#vegastan figure img,
+#volunteer figure img {
+  width: 100%;
+  max-width: 700px;  /* make this number larger or smaller to adjust size */
+  height: auto;
+  border-radius: 14px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+/* Ensure images take more horizontal space than text */
+#coldstone figure,
+#vegastan figure,
+#volunteer figure {
+  flex: 3;
+}
+
+#coldstone article p,
+#vegastan article p,
+#volunteer article p {
+  flex: 2;
+}
