@@ -348,7 +348,7 @@ width:100%;}
 #vegastan figure,
 #volunteer figure {
   flex: 1;
-  max-width: 40%;
+  max-width: 100%;
 }
 
 #coldstone figure img,
