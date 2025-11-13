@@ -370,7 +370,7 @@ width:100%;}
 }
 
 /* Responsive: stack image on top for small screens */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #coldstone article,
   #vegastan article,
   #volunteer article {
