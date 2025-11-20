@@ -414,7 +414,7 @@ section {scroll-margin-top:90px;}
   margin:0 auto;
   box-shadow:0 6px 14px rgba(0,0,0,0.2);}
 
-.sr-only {position: absolute;
+.sr-only {position:absolute;
   width:1px;
   height:1px;
   margin:-1px;
@@ -422,56 +422,32 @@ section {scroll-margin-top:90px;}
   clip-path:inset(50%);
   border:0;}
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 2px solid #F3A9B8; /* softened pink border */
-  margin: 20px 0;
-}
+table {width:100%;
+  border-collapse:collapse;
+  border:2px solid #F3A9B8; 
+  margin:20px 0;}
 
-caption {
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #9BBFA8; /* soft pastel green */
-  margin-bottom: 10px;
-}
+caption {font-size:1.3rem;
+  font-weight:bold;
+  color:#9BBFA8; 
+  margin-bottom:10px;}
 
-/* Header row */
-thead th {
-  background-color: #CFE5D9; /* pastel green */
-  color: #000000;
-  padding: 10px;
-  border: 1px solid #F3A9B8; /* pastel pink */
-}
+thead th {background-color:#CFE5D9;
+  color:#000000;
+  padding:10px;
+  border:1px solid #F3A9B8;}
 
-/* Table body cells */
-tbody td, tfoot td {
-  padding: 10px;
-  border: 1px solid #F3A9B8; /* pastel pink */
-}
+tbody td, tfoot td {padding:10px;
+  border:1px solid #F3A9B8;}
 
-/* ✔ First & third rows same color (rubric requirement) */
 tbody tr:nth-child(1),
-tbody tr:nth-child(3) {
-  background-color: #F8CBD6; /* pastel pink */
-}
+tbody tr:nth-child(3) {background-color:#F8CBD6;}
 
-/* ✔ Alternating rows */
-tbody tr:nth-child(2n) {
-  background-color: #F7F7F7; /* soft neutral pastel gray */
-}
+tbody tr:nth-child(2n) {background-color:#F7F7F7;}
 
-/* Footer row */
-tfoot td {
-  background-color: #E4F3EC; /* extra-light mint green */
-  font-weight: bold;
-}
+tfoot td {background-color:#E4F3EC; 
+  font-weight:bold;}
 
-/* ✔ Responsive */
-@media (max-width: 600px) {
-  table {
-    display: block;
-    overflow-x: auto;
-    font-size: 0.9rem;
-  }
-}
+@media (max-width: 600px) {table {display:block;
+    overflow-x:auto;
+    font-size:0.9rem;}}
