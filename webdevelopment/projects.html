@@ -17,6 +17,46 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="nav.css">
    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+ <style>
+table {
+width: 100%;
+border-collapse: collapse;
+border: 2px solid #333;
+margin: 20px 0;
+}
+caption {
+font-size: 1.3rem;
+font-weight: bold;
+margin-bottom: 10px;
+}
+thead th {
+background-color: #cfe2f3;
+padding: 10px;
+border: 1px solid #333;
+}
+tbody td, tfoot td {
+padding: 10px;
+border: 1px solid #333;
+}
+tbody tr:nth-child(1),
+tbody tr:nth-child(3) {
+background-color: #f7d7d7;
+}
+tbody tr:nth-child(2n) {
+background-color: #f2f2f2;
+}
+tfoot td {
+background-color: #d9ead3;
+font-weight: bold;
+}
+@media (max-width: 600px) {
+table {
+display: block;
+overflow-x: auto;
+font-size: 0.9rem;
+}
+}
+</style>
 </head>
 <body>
 <header>
@@ -105,6 +145,52 @@
        accessibility and advocating for the less fortunate.</p>
     </article>
   </section>
+  <figure>
+<figcaption>Summary of Professional & Volunteer Experience</figcaption>
+<table>
+<caption>Experience Overview</caption>
+<thead>
+<tr>
+<th scope="col">Organization</th>
+<th scope="col">Role</th>
+<th scope="col">Dates</th>
+<th scope="col">Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coldstone Creamery</td>
+<td>Crewmember</td>
+<td>Mar 2022 – Jan 2023</td>
+<td>Employment</td>
+</tr>
+<tr>
+<td>Vegas Tan</td>
+<td>Tanning Specialist Lead</td>
+<td>Apr 2023 – Aug 2025</td>
+<td>Employment</td>
+</tr>
+<tr>
+<td>Food Bank for Central & Northeast Missouri</td>
+<td>Volunteer</td>
+<td>2024 – 2025</td>
+<td>Volunteer</td>
+</tr>
+<tr>
+<td>Additional Experience</td>
+<td>—</td>
+<td>—</td>
+<td>Coming Soon</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="4">This table summarizes key roles and experiences</td>
+</tr>
+</tfoot>
+</table>
+</figure>
+
 </main>
   <footer>
  <p>
