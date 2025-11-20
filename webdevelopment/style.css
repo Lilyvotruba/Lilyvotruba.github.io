@@ -422,43 +422,54 @@ section {scroll-margin-top:90px;}
   clip-path:inset(50%);
   border:0;}
 
- <style>
 table {
-width: 100%;
-border-collapse: collapse;
-border: 2px solid #333;
-margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #E992A4; /* site pink */
+  margin: 20px 0;
 }
+
 caption {
-font-size: 1.3rem;
-font-weight: bold;
-margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #8AB395; /* heading green */
+  margin-bottom: 10px;
 }
+
 thead th {
-background-color: #cfe2f3;
-padding: 10px;
-border: 1px solid #333;
+  background-color: #8AB395; /* heading green */
+  color: white;
+  padding: 10px;
+  border: 2px solid #E992A4; /* pink border */
 }
+
 tbody td, tfoot td {
-padding: 10px;
-border: 1px solid #333;
+  padding: 10px;
+  border: 2px solid #E992A4; /* site pink */
 }
+
+/* ✔ First & third rows same color (Rubric requirement) */
 tbody tr:nth-child(1),
 tbody tr:nth-child(3) {
-background-color: #f7d7d7;
+  background-color: #FCE6EC; /* light pink shade matching your theme */
 }
+
+/* ✔ Alternating row colors using nth-child() */
 tbody tr:nth-child(2n) {
-background-color: #f2f2f2;
+  background-color: #F7F7F7; /* light neutral gray */
 }
+
+/* Footer row */
 tfoot td {
-background-color: #d9ead3;
-font-weight: bold;
+  background-color: #E2F0E9; /* soft green tint based on #8AB395 */
+  font-weight: bold;
 }
+
+/* ✔ Responsive rule */
 @media (max-width: 600px) {
-table {
-display: block;
-overflow-x: auto;
-font-size: 0.9rem;
+  table {
+    display: block;
+    overflow-x: auto;
+    font-size: 0.9rem;
+  }
 }
-}
-</style>
