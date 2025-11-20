@@ -425,47 +425,49 @@ section {scroll-margin-top:90px;}
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid #E992A4; /* site pink */
+  border: 2px solid #F3A9B8; /* softened pink border */
   margin: 20px 0;
 }
 
 caption {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #8AB395; /* heading green */
+  color: #9BBFA8; /* soft pastel green */
   margin-bottom: 10px;
 }
 
+/* Header row */
 thead th {
-  background-color: #8AB395; /* heading green */
-  color: white;
+  background-color: #CFE5D9; /* pastel green */
+  color: #000000;
   padding: 10px;
-  border: 2px solid #E992A4; /* pink border */
+  border: 1px solid #F3A9B8; /* pastel pink */
 }
 
+/* Table body cells */
 tbody td, tfoot td {
   padding: 10px;
-  border: 2px solid #E992A4; /* site pink */
+  border: 1px solid #F3A9B8; /* pastel pink */
 }
 
-/* ✔ First & third rows same color (Rubric requirement) */
+/* ✔ First & third rows same color (rubric requirement) */
 tbody tr:nth-child(1),
 tbody tr:nth-child(3) {
-  background-color: #FCE6EC; /* light pink shade matching your theme */
+  background-color: #F8CBD6; /* pastel pink */
 }
 
-/* ✔ Alternating row colors using nth-child() */
+/* ✔ Alternating rows */
 tbody tr:nth-child(2n) {
-  background-color: #F7F7F7; /* light neutral gray */
+  background-color: #F7F7F7; /* soft neutral pastel gray */
 }
 
 /* Footer row */
 tfoot td {
-  background-color: #E2F0E9; /* soft green tint based on #8AB395 */
+  background-color: #E4F3EC; /* extra-light mint green */
   font-weight: bold;
 }
 
-/* ✔ Responsive rule */
+/* ✔ Responsive */
 @media (max-width: 600px) {
   table {
     display: block;
