@@ -16,7 +16,6 @@ h2,h3,h4,h5,h6{font-family:'DM Serif Text',serif;
 
 /* Custom styles for all <h1 or h2> elements */
 h1.page-title, h2.page-content {
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.15); /* stronger shadow */
   letter-spacing: 1.5px;                     
   text-decoration: underline;}
 
