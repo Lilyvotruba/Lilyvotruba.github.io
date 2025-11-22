@@ -20,20 +20,6 @@ h1.page-title, h2.page-content{
   text-decoration:underline;
   text-shadow:none !important}
 
-.projects-page h2 {
-  font-family: "DM Serif Text", serif;
-  letter-spacing: 1px;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  font-size: 28px;
-
-  /* subtle, clean shadow */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
 p{font-family:'Open Sans',sans-serif;
   color:#000000;
   font-size:20px;}
@@ -490,3 +476,16 @@ footer .footer-icon:hover{
   transform:scale(1.2);
   filter:drop-shadow(0 0 6px #8AB395)
           brightness(1.2);}
+.projects-page h2 {
+  font-family: "DM Serif Text", serif;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 28px;
+
+  /* subtle, clean shadow */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
