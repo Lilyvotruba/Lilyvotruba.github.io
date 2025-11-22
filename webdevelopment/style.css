@@ -17,7 +17,8 @@ h2,h3,h4,h5,h6{font-family:'DM Serif Text',serif;
 /* Custom styles for all <h1 or h2> elements */
 h1.page-title, h2.page-content{
   letter-spacing:1.5px;                     
-  text-decoration:underline;}
+  text-decoration:underline;
+  text-shadow:none}
 
 p{font-family:'Open Sans',sans-serif;
   color:#000000;
