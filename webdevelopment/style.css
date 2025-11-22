@@ -451,3 +451,20 @@ tfoot td {background-color:#E4F3EC;
 @media (max-width: 600px) {table {display:block;
     overflow-x:auto;
     font-size:0.9rem;}}
+
+footer .icon {
+  width: 26px;
+  height: 26px;
+  transition: 
+    transform 0.3s ease,
+    filter 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Hover Glow + Scale Animation (matches your pink + green palette) */
+footer .icon:hover {
+  transform: scale(1.18);
+  filter: brightness(1.25) saturate(120%);
+  box-shadow: 0 0 12px rgba(233, 146, 164, 0.55); /* soft pink glow */
+}
+
