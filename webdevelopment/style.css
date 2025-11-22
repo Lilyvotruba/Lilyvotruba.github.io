@@ -14,6 +14,13 @@ h2,h3,h4,h5,h6{font-family:'DM Serif Text',serif;
   font-weight:400;
   font-style:italic;}
 
+/* Custom styles for all <h1 or h2> elements */
+h1, h2 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.15); /* depth effect */
+  letter-spacing: 1.5px;                     /* more legible */
+  text-decoration: underline;                /* optional extra style */
+}
+
 p{font-family:'Open Sans',sans-serif;
   color:#000000;
   font-size:20px;}
